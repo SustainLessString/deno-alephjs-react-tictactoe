@@ -1,8 +1,8 @@
 import React from 'react';
 import Square from "./Square.tsx";
-import { GameProps } from '~/pages/tictactoe/types/Props.types.ts';
+import { useGameProps } from '~/pages/tictactoe/types/Props.types.ts';
 
-const Game = (props: GameProps) => {
+const Game = (props: useGameProps) => {
   const { board, handleClick } = props;
   const styles = {
     board: {

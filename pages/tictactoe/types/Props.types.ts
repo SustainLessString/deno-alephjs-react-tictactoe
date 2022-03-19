@@ -18,7 +18,7 @@ export interface StartProps {
   handleStart(players: string[]): void;
 }
 
-export interface GameProps {
+export interface useGameProps {
   board: string[];
   status: string;
   winner: string | null;
