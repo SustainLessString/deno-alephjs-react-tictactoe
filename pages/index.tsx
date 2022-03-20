@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Game from "~/pages/tictactoe/Game.tsx";
-import Start from "~/pages/tictactoe/Start.tsx";
-import Finished from "~/pages/tictactoe/Finished.tsx";
-import useTickTackToe from "~/pages/tictactoe/hooks/useTicTacToe.ts";
+import Game from "~/components/Game.tsx";
+import Start from "~/components/Start.tsx";
+import Finished from "~/components/Finished.tsx";
+import useTickTackToe from "~/hooks/useTicTacToe.ts";
 
 export default () => {
   const game = useTickTackToe();
